@@ -6,8 +6,11 @@
 }
 
 footer {
-  padding: 300px 0;
-  background-color: #27262d;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 200px 0;
+  background-color: black;
 }
 
 footer p {
