@@ -42,6 +42,7 @@ footer {
 .footerBottom p {
   color: #e1dac8;
   font-size: 14px;
+  font-family: "Inknut Antiqua", serif;
   margin: 5px 0;
 }
 
@@ -50,6 +51,7 @@ footer {
   text-transform: uppercase;
   letter-spacing: 1px;
   opacity: 0.9;
+  font-family: "Inknut Antiqua", serif;
 }
 
 @media (min-width: 800px) {

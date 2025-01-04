@@ -28,6 +28,7 @@ nav {
   font-size: 44px;
   color: #6b5b4f;
   margin: 0;
+  font-family: "Inknut Antiqua", serif;
 }
 
 .menu {
@@ -40,6 +41,7 @@ nav {
   font-size: 44px;
   color: #6b5b4f;
   transition: color 0.3s ease;
+  font-family: "Inknut Antiqua", serif;
 }
 
 .menu a:hover {

@@ -23,11 +23,13 @@ img {
 
 .hero_section h1 {
   font-size: 50px;
+  font-family: "Inknut Antiqua", serif;
   color: #5b5048;
 }
 
 .hero_section h2 {
   font-size: 20px;
+  font-family: "Inknut Antiqua", serif;
   font-weight: 300;
   margin: 10px 0 0;
   color: #5b5048;
@@ -35,6 +37,7 @@ img {
 
 .hero_section h3 {
   font-size: 15px;
+  font-family: "Inknut Antiqua", serif;
   font-weight: 300;
   margin: 10px 0 0;
   color: #5b5048;
@@ -56,12 +59,14 @@ img {
 
 .grid_1-1 h1 {
   font-size: 50px;
+  font-family: "Inknut Antiqua", serif;
   margin-bottom: 10px;
   color: #e1dac8;
 }
 
 .grid_1-1 p {
   font-size: 20px;
+  font-family: "Inknut Antiqua", serif;
   line-height: 1.6;
   color: #e1dac8;
 }
@@ -142,6 +147,7 @@ img {
 
 .intro-tekst h1 {
   font-size: 1.5rem;
+  font-family: "Inknut Antiqua", serif;
   margin: 0;
 }
 
@@ -153,12 +159,14 @@ section {
   margin-bottom: 30px;
   padding: 0 15px;
   color: #5b5048;
+  font-family: "Inknut Antiqua", serif;
 }
 
 section h1,
 section h2 {
   margin-top: 0;
   line-height: 1.6;
+  font-family: "Inknut Antiqua", serif;
 }
 
 section p,
@@ -166,6 +174,7 @@ section ul {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  font-family: "Inknut Antiqua", serif;
 }
 
 /*------------------Desktop version------------------*/
@@ -179,7 +188,7 @@ section ul {
   }
 
   .intro img {
-    width: 500px; /* Øger størrelsen på billedet på større skærme */
+    width: 500px;
     height: 500px;
     margin-right: 20px;
   }
@@ -197,7 +206,7 @@ section ul {
     margin-bottom: 30px;
     padding: 0 45px;
     color: #5b5048;
-    max-width: 1900px; /* Sætter en maksimal bredde på teksten */
+    max-width: 1900px;
   }
 
   section h1,

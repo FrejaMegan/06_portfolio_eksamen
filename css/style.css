@@ -27,12 +27,12 @@ body {
 
 #mouse_icon::after {
   position: absolute;
-  top: 8px; 
-  width: 8px; 
-  height: 18px; 
+  top: 8px;
+  width: 8px;
+  height: 18px;
   content: "";
   background-color: #5b5048;
-  left: calc(60% - 6px); 
+  left: calc(60% - 6px);
   border-radius: 10px;
   animation: mouse 2s infinite;
 }
@@ -53,15 +53,15 @@ body {
 /* Desktop styles */
 @media (min-width: 800px) {
   #mouse_icon {
-    width: 80px; 
-    height: 160px; 
-    border: 8px solid #5b5048; 
+    width: 80px;
+    height: 160px;
+    border: 8px solid #5b5048;
   }
 
   #mouse_icon::after {
-    top: 30px; 
-    width: 16px; 
-    height: 40px; 
-    left: calc(47% - 6px); 
+    top: 30px;
+    width: 16px;
+    height: 40px;
+    left: calc(47% - 6px);
   }
 }
