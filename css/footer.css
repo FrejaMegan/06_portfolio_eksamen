@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer {
+  padding: 300px 0;
+  background-color: #27262d;
+}
+
+footer p {
+  font-family: "Roboto";
+  color: white;
+  font-size: 30px;
+}
