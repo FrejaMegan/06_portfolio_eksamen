@@ -97,8 +97,6 @@ img {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
-    padding: 50px 20px;
-    padding: 300px;
   }
 
   .grid_1-1 h1 {
@@ -115,5 +113,102 @@ img {
   #mouse_icon {
     bottom: 50px;
     left: 50%;
+  }
+}
+/*------------------Projekt siden------------------*/
+/*------------------Mobil version------------------*/
+
+/*------------------CV siden------------------*/
+/*------------------Mobil version------------------*/
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.intro-tekst {
+  color: #5b5048;
+}
+
+.intro-tekst h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.intro-tekst p {
+  margin: 5px 0;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 0 15px;
+  color: #5b5048;
+}
+
+section h1,
+section h2 {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+section p,
+section ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/*------------------Desktop version------------------*/
+
+@media (min-width: 768px) {
+  .intro {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+  }
+
+  .intro img {
+    width: 500px; /* Øger størrelsen på billedet på større skærme */
+    height: 500px;
+    margin-right: 20px;
+  }
+
+  .intro-tekst {
+    text-align: left;
+    font-size: 55px;
+  }
+
+  .intro-tekst p {
+    margin: 20px 0;
+  }
+
+  section {
+    margin-bottom: 30px;
+    padding: 0 45px;
+    color: #5b5048;
+    max-width: 1900px; /* Sætter en maksimal bredde på teksten */
+  }
+
+  section h1,
+  section h2 {
+    font-size: 40px;
+    line-height: 1.6;
+  }
+
+  section p,
+  section ul {
+    font-size: 30px;
+    line-height: 1.6;
   }
 }

@@ -1,20 +1,79 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 200px 0;
-  background-color: black;
+  background-color: #7a7272;
+  color: white;
+  padding: 60px 10px;
+  text-align: center;
+  width: 100%;
 }
 
-footer p {
-  font-family: "Roboto";
-  color: white;
-  font-size: 30px;
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #e1dac8;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background-color: #ccb49a;
+}
+
+.socialIcons a i {
+  font-size: 1.5em;
+  color: #7a7272;
+}
+
+.footerBottom {
+  background-color: #7a7272;
+  padding: 10px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: #e1dac8;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footerBottom .designer {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+@media (min-width: 800px) {
+  footer {
+    padding: 50px 20px;
+  }
+
+  .socialIcons {
+    gap: 20px;
+  }
+
+  .socialIcons a {
+    padding: 25px;
+  }
+
+  .socialIcons a i {
+    font-size: 3em;
+  }
+
+  .footerBottom p {
+    font-size: 30px;
+  }
+
+  .footerBottom .designer {
+    font-size: 35px;
+  }
 }
