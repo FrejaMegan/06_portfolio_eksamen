@@ -12,15 +12,16 @@ img {
 }
 
 body {
-  background-color: #e1dac8; /* Beige baggrund */
+  background-color: #e1dac8; 
 }
 
-/* Standard (Mobile-first) styles */
+/*--------------Musen på mobil----------------*/
+
 #mouse_icon {
   position: absolute;
-  width: 30px; /* Lidt mindre på mobil */
-  height: 60px; /* Lidt mindre på mobil */
-  border: 2px solid #5b5048; /* Mindre kant på mobil */
+  width: 30px; 
+  height: 60px; 
+  border: 2px solid #5b5048; 
   border-radius: 50px;
   margin-top: 20px;
 }
@@ -37,7 +38,7 @@ body {
   animation: mouse 2s infinite;
 }
 
-/* Animation */
+/*--------------Animation----------------*/
 @keyframes mouse {
   0% {
     opacity: 1;
@@ -50,7 +51,7 @@ body {
   }
 }
 
-/* Desktop styles */
+/*----------------Musen på Desktop-------------*/
 @media (min-width: 800px) {
   #mouse_icon {
     width: 80px;
