@@ -116,6 +116,7 @@ nav {
   .logo img {
     width: 120px;
     height: 120px;
+    margin: 10px;
   }
 
   .side_navn h1 {
@@ -125,14 +126,15 @@ nav {
   }
 
   .burger {
-    display: none; 
+    display: none;
   }
 
   .menu {
-    display: flex; 
+    display: flex;
   }
 
-  .menu a{
+  .menu a {
     font-size: 35px;
+    padding: 5px 30px; /* Juster luft omkring links på desktop */
   }
 }
