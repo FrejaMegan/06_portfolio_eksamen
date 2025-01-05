@@ -1,25 +1,17 @@
 footer {
   background-color: #7a7272;
-  color: white;
-  padding: 60px 10px;
-  text-align: center;
-  width: 100%;
 }
 
 .socialIcons {
   display: flex;
   justify-content: center;
-  gap: 15px;
 }
 
 .socialIcons a {
-  text-decoration: none;
   padding: 10px;
   background-color: #e1dac8;
   margin: 10px;
   border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
 }
@@ -29,7 +21,7 @@ footer {
 }
 
 .socialIcons a i {
-  font-size: 1.5em;
+  font-size: 30px;
   color: #7a7272;
 }
 
@@ -43,7 +35,6 @@ footer {
   color: #e1dac8;
   font-size: 14px;
   font-family: "Inknut Antiqua", serif;
-  margin: 5px 0;
 }
 
 .footerBottom .designer {

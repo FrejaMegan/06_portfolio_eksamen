@@ -102,21 +102,26 @@ img {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
+    width: 100%;
+    max-width: 2700px;
+    margin: 0 auto;
+    padding: 0 250px;
+    height: 1400px;
   }
 
   .grid_1-1 h1 {
-    font-size: 170px;
+    font-size: 150px;
   }
   .grid_1-1 p {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .grid_1-1 img {
-    max-width: 800px;
+    max-width: 750px;
   }
 
   #mouse_icon {
-    bottom: 50px;
+    bottom: -80px;
     left: 50%;
   }
 }
