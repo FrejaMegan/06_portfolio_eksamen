@@ -1,0 +1,131 @@
+/*------------------Generel styling for alle siden----------------*/
+body {
+  font-family: "Inknut Antiqua", serif;
+  color: #5b5048;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/*--------------Selve section billederne-----------*/
+
+section img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/*------------------Tema 1---------------*/
+
+/*--------------Grid af 2 billeder ved siden af hinanden-----------*/
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/*--------------Grid af 3 billeder-----------*/
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid_2-1 img:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.grid_2-1 img:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.grid_2-1 img:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 0;
+}
+
+/*---------------Linksne i bunden-------------*/
+ul {
+  text-align: center;
+}
+
+ul li {
+  margin: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*-------------------Desktop layout-------------*/
+@media (min-width: 800px) {
+  h1,
+  h2 {
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 20px; 
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 1.6; 
+    max-width: 1800px;
+    margin: 0 auto; 
+    margin-top: 30px;
+  }
+
+ 
+  section img {
+    width: 67%; 
+    margin: 0 auto; 
+    margin-top: 30px;
+  }
+
+  
+  .grid_1-1 {
+    grid-template-columns: 2fr 1fr; 
+    max-width: 1800px; 
+    margin: 0 auto; 
+  }
+
+  
+  .grid_2-1 {
+    grid-template-columns: 1fr 1fr; 
+    max-width: 1800px; 
+    margin: 0 auto; 
+  }
+
+  
+  .grid_1-1 img,
+  .grid_2-1 img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 30px;
+  }
+
+  section {
+    padding: 10px; 
+    margin: 0 auto; 
+  }
+  ul li {
+    font-size: 30px;
+  }
+}
