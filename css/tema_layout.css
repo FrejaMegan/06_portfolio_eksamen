@@ -156,43 +156,9 @@ ul li a {
   }
 }
 
-/*--------------Tema 4-------------*/
-
-.grid_side_om_side {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 10px; 
-  justify-items: center; 
-}
 
 
-.image-container {
-  width: 100%;
-  max-width: 100%; 
-  height: 250px; 
-  overflow: hidden; 
-}
 
-
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-}
-
-
-@media (min-width: 800px) {
-  .grid_side_om_side {
-    grid-template-columns: repeat(2, 1fr); 
-    justify-content: center; 
-    gap: 0;
-  }
-
-  .image-container {
-    height: 400px; 
-    max-width: 90%; 
-  }
-}
 
 
 
