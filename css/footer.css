@@ -1,16 +1,20 @@
+/*----------------Footer mobile first----------------*/
 footer {
   background-color: #7a7272;
+  width: 100%; 
 }
 
 .socialIcons {
   display: flex;
   justify-content: center;
+  gap: 10px; 
+  margin: 20px 0; 
 }
 
 .socialIcons a {
   padding: 10px;
   background-color: #e1dac8;
-  margin: 10px;
+  margin: 15px;
   border-radius: 50%;
   justify-content: center;
   transition: background-color 0.3s ease;
@@ -25,15 +29,16 @@ footer {
   color: #7a7272;
 }
 
+
 .footerBottom {
   background-color: #7a7272;
-  padding: 10px;
+  padding: 20px 10px; 
   text-align: center;
 }
 
 .footerBottom p {
   color: #e1dac8;
-  font-size: 14px;
+  font-size: 12px; 
   font-family: "Inknut Antiqua", serif;
 }
 
@@ -45,9 +50,10 @@ footer {
   font-family: "Inknut Antiqua", serif;
 }
 
+/*----------------Desktop-------------*/
 @media (min-width: 800px) {
   footer {
-    padding: 50px 20px;
+    padding: 50px 10%; 
   }
 
   .socialIcons {
@@ -63,10 +69,10 @@ footer {
   }
 
   .footerBottom p {
-    font-size: 30px;
+    font-size: 16px; 
   }
 
   .footerBottom .designer {
-    font-size: 35px;
+    font-size: 18px; 
   }
 }
