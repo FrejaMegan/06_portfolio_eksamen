@@ -13,7 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f4f4;
 }
 
 nav {
@@ -21,6 +20,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  background-color: #e1dac8;
+
 }
 
 .logo img {
@@ -131,7 +138,7 @@ nav {
     color: #6b5b4f;
     font-family: "Inknut Antiqua", serif;
     text-align: center; 
-    margin-left: 110%; 
+    margin-left: 135%; 
   }
 
   .burger {
