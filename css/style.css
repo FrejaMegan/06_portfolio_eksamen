@@ -12,30 +12,29 @@ img {
 }
 
 body {
-  background-color: #e1dac8; 
+  background-color: #e1dac8;
 }
-
 
 /*--------------Musen på mobil----------------*/
 
 #mouse_icon {
   position: absolute;
-  width: 40px; 
-  height: 70px; 
+  width: 40px;
+  height: 70px;
   border: 2px solid #5b5048;
   border-radius: 50px;
-  margin-top: 5vh; 
-  top: 40vh; 
+  margin-top: 5vh;
+  top: 40vh;
 }
 
 #mouse_icon::after {
   position: absolute;
-  top: 20%; 
-  width: 10px; 
-  height: 25px; 
+  top: 20%;
+  width: 10px;
+  height: 25px;
   content: "";
   background-color: #5b5048;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
   animation: mouse 2s infinite;
@@ -45,30 +44,30 @@ body {
 @keyframes mouse {
   0% {
     opacity: 1;
-    top: 5%; 
+    top: 5%;
   }
 
   100% {
     opacity: 0;
-    top: 50%; 
+    top: 50%;
   }
 }
 
 /*----------------Musen på Desktop-------------*/
 @media (min-width: 800px) {
   #mouse_icon {
-    width: 40px; 
-    height: 70px; 
+    width: 40px;
+    height: 70px;
     border: 4px solid #5b5048;
-    top: 5vh; 
-    top: 60vh; 
+    top: 5vh;
+    top: 60vh;
   }
 
   #mouse_icon::after {
-    top: 15%; 
-    width: 8px; 
-    height: 25px; 
-    left: 50%; 
+    top: 15%;
+    width: 8px;
+    height: 25px;
+    left: 50%;
     transform: translateX(-50%);
   }
 }
