@@ -307,14 +307,14 @@ section ul {
   }
 
   .intro img {
-    width: 30%; /* Gør billedet mere fleksibelt og responsivt */
-    height: auto; /* Bevarer proportionerne på billedet */
+    width: 30%; 
+    height: auto; 
     margin-right: 40px;
   }
 
   .intro-tekst {
     text-align: left;
-    font-size: 3vw; /* Brugte viewport-bredde enhed for at gøre teksten responsiv */
+    font-size: 3vw; 
     padding: 60px;
   }
 
@@ -324,20 +324,20 @@ section ul {
 
   section {
     margin-bottom: 30px;
-    padding: 0 10%; /* Justeret padding for bedre responsivitet */
+    padding: 0 10%; 
     color: #5b5048;
-    width: 100%; /* Sikrer, at sektionen fylder hele bredden */
+    width: 100%; 
   }
 
   section h1,
   section h2 {
-    font-size: 1vw; /* Responsiv fontstørrelse */
+    font-size: 1vw; 
     line-height: 1.6;
   }
 
   section p,
   section ul {
-    font-size: 1vw; /* Responsiv fontstørrelse */
+    font-size: 1vw; 
     line-height: 1.6;
   }
 }
