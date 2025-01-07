@@ -17,16 +17,19 @@ footer {
   margin: 15px;
   border-radius: 50%;
   justify-content: center;
-  transition: background-color 0.3s ease;
-}
+  transition: background-color 0.3s ease, transform 0.3s ease;}
 
 .socialIcons a:hover {
-  background-color: #ccb49a;
+  transform: scale(1.2);
 }
 
 .socialIcons a i {
   font-size: 30px;
   color: #7a7272;
+  transition: color 0.3s ease;
+}
+.socialIcons a:hover i {
+  color: #6b5b4f; 
 }
 
 
